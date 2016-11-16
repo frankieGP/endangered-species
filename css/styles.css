@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -224,32 +225,73 @@ width: 100%
 }
 
 .ass-pin {
+=======
+.map {
+position: relative;
+}
+
+.map:after {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 15px;
+  left: 250px;
+}
+
+.map:after {
+  content: url(../img/monkey.jpg);
+  position: absolute;
+  top: 15px;
+  left: 350px;
+}
+
+.map:after {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 15px;
+  left: 650px;
+}
+
+.map:after {
+>>>>>>> fbb300766b876c06903fbd9646c89a8fb935f5c3
   content: url(../img/pin.png);
   position: absolute;
   top: 15px;
   left: 850px;
 }
 
+<<<<<<< HEAD
 .blue-whale-pin {
+=======
+.map:after {
+>>>>>>> fbb300766b876c06903fbd9646c89a8fb935f5c3
   content: url(../img/pin.png);
   position: absolute;
   top: 15px;
   left: 750px;
 }
 
+<<<<<<< HEAD
 .tiger-pin {
+=======
+.map:after {
+>>>>>>> fbb300766b876c06903fbd9646c89a8fb935f5c3
   content: url(../img/pin.png);
   position: absolute;
   top: 135px;
   left: 500px;
 }
 
+<<<<<<< HEAD
 .kangaroo-pin {
+=======
+.map:after {
+>>>>>>> fbb300766b876c06903fbd9646c89a8fb935f5c3
   content: url(../img/pin.png);
   position: absolute;
   top: 150px;
   left: 50px;
 }
+<<<<<<< HEAD
 .jaguar-pin {
   content: url(../img/pin.png);
   position: absolute;
@@ -260,10 +302,25 @@ width: 100%
 .bear-pin {
   content: url(../img/pin.png);
   position: absolute;
+=======
+.map:after {
+  content: url(../img/pin.png);
+  position: absolute;
+  width:
+  top: 15px;
+  left: 50px;
+}
+
+.map:after {
+  content: url(../img/pin.png);
+  position: absolute;
+  width:
+>>>>>>> fbb300766b876c06903fbd9646c89a8fb935f5c3
   top: 105px;
   left: 50px;
 }
 
+<<<<<<< HEAD
 .cheetah-pin {
   content: url(../img/pin.png);
   position: absolute;
@@ -284,4 +341,7 @@ width: 100%
   border-color: green;
   background-color: blue;
   color: green;
+<<<<<<< HEAD
 }
+=======
+}*/
