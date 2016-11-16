@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.animals {
+  max-width: 200px;
+}
+
+.map {
+position: relative;
+width: 100%
+}
+
+.monkey-item {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  z-index: 1;
+}
+
+.monkey-hidden {
+  display: none;
+  /*position: relative;*/
+}
+
+.monkey-item:hover > .monkey-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+.ass-item {
+  position: absolute;
+  top: 105px;
+  left: 350px;
+  z-index: 1;
+}
+
+.ass-hidden {
+  display: none;
+  /*position: relative;*/
+}
+
+.ass-item:hover > .ass-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+.blue-whale-item {
+  position: absolute;
+  top: 750px;
+  left: 750px;
+  z-index: 1;
+}
+
+.blue-whale-hidden {
+  display: none;
+  /*position: relative;*/
+}
+
+.blue-whale-item:hover > .blue-whale-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  position: absolute;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+.tiger-item {
+  position: absolute;
+  top: 125px;
+  left: 1050px;
+  z-index: 1;
+}
+
+.tiger-hidden {
+  display: none;
+  /*position: relative;*/
+}
+
+.tiger-item:hover > .tiger-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+.kangaroo-item {
+  position: absolute;
+  top: 500px;
+  left: 1450px;
+  z-index: 1;
+}
+
+.kangaroo-hidden {
+  display: none;
+  /*position: relative;*/
+}
+.kangaroo-item:hover > .kangaroo-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+.jaguar-item {
+  position: absolute;
+  top: 220px;
+  left: 290px;
+  z-index: 1;
+}
+
+.jaguar-hidden {
+  display: none;
+  /*position: relative;*/
+}
+
+.jaguar-item:hover > .jaguar-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+.cheetah-item {
+  position: absolute;
+  top: 450px;
+  left: 950px;
+  z-index: 1;
+}
+
+.cheetah-hidden {
+  display: none;
+  /*position: relative;*/
+}
+
+.cheetah-item:hover > .cheetah-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+.manatee-item {
+  position: absolute;
+  top: 175px;
+  left: 450px;
+  z-index: 1;
+}
+
+.manatee-hidden {
+  display: none;
+  /*position: relative;*/
+}
+
+.manatee-item:hover > .manatee-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+.killer-whale-item {
+  position: absolute;
+  top: 375px;
+  left: 50px;
+  z-index: 1;
+}
+
+.killer-whale-hidden {
+  display: none;
+  /*position: relative;*/
+}
+
+.killer-whale-item:hover > .killer-whale-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+.bear-item {
+  position: absolute;
+  top: 50px;
+  left: 800px;
+  z-index: 1;
+}
+
+.bear-hidden {
+  display: none;
+  /*position: relative;*/
+}
+
+.bear-item:hover > .bear-hidden {
+  display: block;
+  border: 3px solid red;
+  background-color: grey;
+  /*position: relative;
+  z-index: -1;*/
+}
+
+
+/*.killer-whale-pin {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 35px;
+  left: 350px;
+}
+
+.ass-pin {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 15px;
+  left: 850px;
+}
+
+.blue-whale-pin {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 15px;
+  left: 750px;
+}
+
+.tiger-pin {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 135px;
+  left: 500px;
+}
+
+.kangaroo-pin {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+.jaguar-pin {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 15px;
+  left: 590px;
+}
+
+.bear-pin {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 105px;
+  left: 50px;
+}
+
+.cheetah-pin {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 320px;
+  left: 50px;
+}
+
+.manatee-pin {
+  content: url(../img/pin.png);
+  position: absolute;
+  top: 320px;
+  left: 250px;
+}*/
+
+/*h1 {
+  position: absolute;
+  border-style: solid;
+  border-color: green;
+  background-color: blue;
+  color: green;
+}
